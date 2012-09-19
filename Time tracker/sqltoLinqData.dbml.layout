@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="sqltoLinqData">
+  <DataContextMoniker Name="/sqltoLinqDataDataContext" />
+  <nestedChildShapes>
+    <classShape Id="9fd9f181-aae4-4007-8032-445de15dcd74" absoluteBounds="4.375, 1.375, 2, 1.3862939453125">
+      <DataClassMoniker Name="/sqltoLinqDataDataContext/TimeTrickTable" />
+      <nestedChildShapes>
+        <elementListCompartment Id="d167f01a-0e4b-4ea7-b3fc-df830bacc39b" absoluteBounds="4.39, 1.835, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

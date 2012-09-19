@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="TimerDataSet" targetNamespace="http://tempuri.org/TimerDataSet.xsd" xmlns:mstns="http://tempuri.org/TimerDataSet.xsd" xmlns="http://tempuri.org/TimerDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="TimerDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="TimerDataSet" msprop:Generator_UserDSName="TimerDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="TimerDataTable" msprop:Generator_TableClassName="TimerDataTableDataTable" msprop:Generator_TableVarName="tableTimerDataTable" msprop:Generator_TablePropName="TimerDataTable" msprop:Generator_RowDeletingName="TimerDataTableRowDeleting" msprop:Generator_UserTableName="TimerDataTable" msprop:Generator_RowChangingName="TimerDataTableRowChanging" msprop:Generator_RowEvHandlerName="TimerDataTableRowChangeEventHandler" msprop:Generator_RowDeletedName="TimerDataTableRowDeleted" msprop:Generator_RowEvArgName="TimerDataTableRowChangeEvent" msprop:Generator_RowChangedName="TimerDataTableRowChanged" msprop:Generator_RowClassName="TimerDataTableRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="EntryDate" msprop:Generator_ColumnVarNameInTable="columnEntryDate" msprop:Generator_ColumnPropNameInRow="EntryDate" msprop:Generator_ColumnPropNameInTable="EntryDateColumn" msprop:Generator_UserColumnName="EntryDate" type="xs:string" minOccurs="0" />
+              <xs:element name="ETime" msprop:Generator_ColumnVarNameInTable="columnETime" msprop:Generator_ColumnPropNameInRow="ETime" msprop:Generator_ColumnPropNameInTable="ETimeColumn" msprop:Generator_UserColumnName="ETime" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

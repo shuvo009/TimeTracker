@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="TimeTrickerDb" Class="sqltoLinqDataDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=.\SQLEXPRESS;AttachDbFilename=|DataDirectory|\TimeTrickerDb.mdf;Integrated Security=True;Connect Timeout=30;User Instance=True" SettingsObjectName="Time_tracker.Properties.Settings" SettingsPropertyName="TimeTrickerDbConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.TimeTrickTable" Member="TimeTrickTables">
+    <Type Name="TimeTrickTable">
+      <Column Name="Autoinc" Type="System.Int64" DbType="BigInt NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="EntryDate" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="ETime" Type="System.TimeSpan" DbType="Time" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>
